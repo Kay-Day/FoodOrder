@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Order</string>
+
+    <!-- Common -->
+    <string name="error_message">Có lỗi xảy ra. Vui lòng thử lại.</string>
+    <string name="action_confirm">Xác nhận</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_add">Thêm</string>
+    <string name="action_edit">Sửa</string>
+    <string name="action_delete">Xóa</string>
+
+    <!-- Auth -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Xác nhận mật khẩu</string>
+    <string name="hint_name">Họ tên</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_address">Địa chỉ</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="action_register">Đăng ký</string>
+    <string name="text_no_account">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="text_has_account">Đã có tài khoản? Đăng nhập</string>
+    <string name="label_user_type">Loại tài khoản</string>
+    <string name="label_customer">Khách hàng</string>
+    <string name="label_seller">Người bán</string>
+
+    <!-- Customer Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_orders">Đơn hàng</string>
+    <string name="nav_profile">Tài khoản</string>
+
+    <!-- Seller Navigation -->
+    <string name="nav_products">Sản phẩm</string>
+    <string name="nav_statistics">Thống kê</string>
+
+    <!-- Home -->
+    <string name="label_food">Đồ ăn</string>
+    <string name="label_drink">Đồ uống</string>
+    <string name="text_no_food">Chưa có món ăn nào</string>
+    <string name="text_no_drink">Chưa có đồ uống nào</string>
+
+    <!-- Search -->
+    <string name="hint_search">Tìm kiếm món ăn, đồ uống...</string>
+    <string name="text_no_results">Không tìm thấy kết quả</string>
+
+    <!-- Cart -->
+    <string name="text_empty_cart">Giỏ hàng trống</string>
+    <string name="label_total">Tổng tiền:</string>
+    <string name="action_checkout">Đặt hàng</string>
+    <string name="label_confirm_order">Xác nhận đặt hàng</string>
+    <string name="text_delivery_method">Thanh toán khi nhận hàng</string>
+
+    <!-- Orders -->
+    <string name="text_no_orders">Chưa có đơn hàng nào</string>
+    <string name="label_order_id">Mã đơn hàng</string>
+    <string name="label_order_date">Ngày đặt</string>
+    <string name="label_order_status">Trạng thái</string>
+    <string name="label_order_total">Tổng tiền</string>
+    <string name="status_placed">Đã đặt hàng</string>
+    <string name="status_confirmed">Đã xác nhận</string>
+    <string name="status_delivered">Đã giao hàng</string>
+    <string name="action_confirm_order">Xác nhận đơn</string>
+    <string name="action_deliver_order">Giao hàng</string>
+
+    <!-- Profile -->
+    <string name="label_profile">Thông tin cá nhân</string>
+    <string name="label_change_image">Đổi ảnh</string>
+    <string name="label_current_password">Mật khẩu hiện tại</string>
+    <string name="label_new_password">Mật khẩu mới</string>
+    <string name="action_change_password">Đổi mật khẩu</string>
+    <string name="action_logout">Đăng xuất</string>
+
+    <!-- Product -->
+    <string name="label_product_name">Tên sản phẩm</string>
+    <string name="label_product_description">Mô tả</string>
+    <string name="label_product_price">Giá</string>
+    <string name="label_product_category">Phân loại</string>
+    <string name="label_add_product">Thêm sản phẩm mới</string>
+    <string name="label_edit_product">Chỉnh sửa sản phẩm</string>
+    <string name="text_no_products">Chưa có sản phẩm nào</string>
+    <string name="action_add_to_cart">Thêm vào giỏ</string>
+
+    <!-- Statistics -->
+    <string name="label_total_products">Tổng số sản phẩm</string>
+    <string name="label_total_orders">Tổng số đơn hàng</string>
+    <string name="label_total_revenue">Tổng doanh thu</string>
+    <string name="label_top_products">Sản phẩm bán chạy</string>
+
+    <!-- Order Detail -->
+    <string name="label_order_detail">Chi tiết đơn hàng</string>
+    <string name="label_customer_info">Thông tin khách hàng</string>
+    <string name="label_customer_name">Tên:</string>
+    <string name="label_customer_phone">Số điện thoại:</string>
+    <string name="label_customer_address">Địa chỉ:</string>
+    <string name="label_items">Các món đã đặt</string>
+</resources>
