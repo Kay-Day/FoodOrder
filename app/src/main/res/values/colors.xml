@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primary">#FF5722</color>
+<!--    <color name="primary">#FF5722</color>-->
     <color name="primary_dark">#E64A19</color>
     <color name="primary_light">#FFCCBC</color>
     <color name="accent">#FFC107</color>
@@ -17,13 +17,28 @@
     <color name="gray">#757575</color>
     <color name="light_gray">#EEEEEE</color>
 
-    <color name="order_placed">#2196F3</color>
-    <color name="order_confirmed">#FF9800</color>
-    <color name="order_delivered">#4CAF50</color>
+<!--    <color name="order_placed">#2196F3</color>-->
+<!--    <color name="order_confirmed">#FF9800</color>-->
+<!--    <color name="order_delivered">#4CAF50</color>-->
 
     <color name="notification_read">#FFFFFF</color>
     <color name="notification_unread">#FCF3E8</color>
 
     <color name="button_enabled">#FF5722</color>
     <color name="button_disabled">#BDBDBD</color>
+
+    <color name="primary">#FF5722</color>
+    <color name="primary_variant">#E64A19</color>
+    <color name="secondary">#4CAF50</color>
+    <color name="secondary_variant">#2E7D32</color>
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#F44336</color>
+
+    <!-- Status colors -->
+    <color name="order_placed">#2196F3</color>
+    <color name="order_confirmed">#FF9800</color>
+    <color name="order_delivered">#4CAF50</color>
+
+
 </resources>

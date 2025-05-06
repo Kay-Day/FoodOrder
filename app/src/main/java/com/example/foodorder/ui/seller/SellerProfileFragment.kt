@@ -12,7 +12,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
-import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -23,10 +22,12 @@ import com.example.foodorder.model.User
 import com.example.foodorder.ui.auth.LoginActivity
 import com.example.foodorder.util.ImageUtils
 import com.example.foodorder.util.PreferenceManager
+import com.google.android.material.button.MaterialButton
+import com.google.android.material.imageview.ShapeableImageView
 
 class SellerProfileFragment : Fragment() {
 
-    private lateinit var imgProfile: ImageView
+    private lateinit var imgProfile: ShapeableImageView
     private lateinit var tvName: TextView
     private lateinit var etName: EditText
     private lateinit var etEmail: EditText
@@ -35,10 +36,10 @@ class SellerProfileFragment : Fragment() {
     private lateinit var etCurrentPassword: EditText
     private lateinit var etNewPassword: EditText
     private lateinit var etConfirmPassword: EditText
-    private lateinit var btnChooseImage: Button
-    private lateinit var btnSaveProfile: Button
-    private lateinit var btnChangePassword: Button
-    private lateinit var btnLogout: Button
+    private lateinit var btnChooseImage: MaterialButton
+    private lateinit var btnSaveProfile: MaterialButton
+    private lateinit var btnChangePassword: MaterialButton
+    private lateinit var btnLogout: MaterialButton
 
     private lateinit var databaseHelper: DatabaseHelper
     private lateinit var preferenceManager: PreferenceManager
@@ -56,7 +57,7 @@ class SellerProfileFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_profile, container, false)
+        val view = inflater.inflate(R.layout.fragment_seller_profile, container, false)
 
         // Initialize views
         imgProfile = view.findViewById(R.id.imgProfile)
